@@ -1,0 +1,679 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fcontainer {
+  width: 100%;
+  height: 200em;
+  background-color: aliceblue;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 45px;
+  background-color: rgb(83, 83, 85);
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  margin: 12px;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+}
+.menu img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 40px;
+  margin-top: 3px;
+}
+.box {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.boxporto {
+  background: url(bgkantor.jpg);
+  background-size: cover;
+  width: 1200px;
+  height: 350px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.untuk-text {
+  width: 1000px;
+  height: 350px;
+}
+.untuk-text h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  padding: 20px;
+}
+.untuk-text p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: bold;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.untuk-text button {
+  display: block;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: bold;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(65, 189, 65);
+  border: none;
+  border-radius: 6px;
+  width: 350px;
+  height: 40px;
+  margin-top: 50px;
+}
+.description {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+}
+.description h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.description p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-left: 50px;
+  color: rgb(51, 51, 51);
+}
+.navigasi {
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  display: flex;
+  
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 35px;
+}
+.nav li {
+  list-style-type: none;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+.produk {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: 300px;
+  margin-top: 10px;
+}
+.wrapper {
+  background-color: white;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 10px;
+  width: 260px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.wrapper h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+.wrapper p {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  color: rgb(29, 29, 29);
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+.photo {
+  display: flex;
+  width: 260px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.photo img {
+  width: 230px;
+  height: 130px;
+  object-fit: cover;
+}
+.profilfoto {
+  display: flex;
+  width: 250px;
+  height: 80px;
+  align-items: center;
+}
+.profilfoto img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.aboutcard h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.aboutcard p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(29, 29, 29);
+  margin-left: 0;
+}
+.rating {
+  display: flex;
+  width: 250px;
+  height: 20px;
+}
+.rating img {
+  margin-left: 12px;
+  width: 50px;
+  height: 20px;
+  object-fit: cover;
+}
+.rating p {
+  text-decoration: underline;
+}
+.rating h4 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(3, 167, 3);
+  margin-left: 50px;
+  font-size: 15px;
+}
+.banerbawah {
+  width: 100%;
+  height: 470px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.bawah {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+.wrapperFooter {
+  width:100%;
+  height: 300px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+.footer {
+  display: flex;
+  width: 1200px;
+  height: 200px;
+  background-color: aliceblue;
+}
+.layanan1 {
+  font-family: "Poppins", sans-serif;
+}
+.layanan1 img {
+  width: 70px;
+  height: 20px;
+  object-fit: cover
+}
+.layanan2 p {
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.layanan2 h4 {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.layanan3 p {
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.layanan3 h4 {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.layanan4 p {
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.layanan4 h4 {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 476px) {
+.fcontainer{
+  background-color: aliceblue;
+  height: 400em;
+}
+.menu li {
+  color: white;
+}
+.boxporto{
+  width: 400px;
+}
+.untuk-text{
+  width: 400px;
+  height: 200px;
+}
+.untuk-text h1{
+font-size: 20px;
+}
+.untuk-text p{
+  font-size: 13px;
+}
+.description {
+  background-color: gray;
+  height: 50px;
+}
+.description h2{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+}
+.description p{
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+}
+.navigasi {
+  background-color: rgb(83, 83, 85);
+}
+.nav li{
+  font-size: 11px;
+  justify-content: center;
+  color: white;
+}
+.produk {
+  width: 400px;
+  height: 1600px;
+  flex-direction: column;
+  align-items:center;
+}
+.wrapper {
+  margin-bottom: 15px;
+  margin-left: 75px;
+}
+.wrapperfooter {
+  margin-top: 30px;
+}
+.footer {
+  width: 400px;
+  height: 500px;
+  flex-direction: column;
+  text-align: center;
+  background-color: gray;
+}
+.layanan1 h4 {
+  font-size: 13px;
+}
+.layanan1 p {
+  font-size: 13px;
+}
+.layanan2 h4 {
+  font-size: 13px;
+}
+.layanan2 p {
+  font-size: 13px;
+}
+.layanan3 h4 {
+  font-size: 13px;
+}
+.layanan3 p {
+  font-size: 13px;
+}
+.layanan4 h4 {
+  font-size: 13px;
+}
+.layanan4 p {
+  font-size: 13px;
+}
+}
+@media screen and (min-width: 476px) {
+  .fcontainer{
+    background-color: rgb(245, 100, 149);
+    width: 700px;
+    height: 470em;
+  }
+  header {
+    background-color: rgb(252, 197, 216);
+  }
+  .boxporto{
+    width: 600px;
+  }
+  .untuk-text{
+    width: 400px;
+    height: 200px;
+  }
+  .untuk-text h1{
+  font-size: 20px;
+  }
+  .untuk-text p{
+    font-size: 13px;
+  }
+  .description {
+    background-color: rgb(168, 61, 97);
+    height: 70px;
+  }
+  .description h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    padding-top: 5px;
+  }
+  .description p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    padding-top: 3px;
+    color: black;
+  }
+  .navigasi {
+    background-color: rgb(252, 197, 216);
+  }
+  .nav {
+    width: 100%;
+    height: 45px;
+  }
+  .nav li{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  .produk {
+    width: 600px;
+    height: 123em;
+    flex-direction: column;
+    align-items:center;
+  }
+  .wrapper {
+    width: 400px;
+    height: 370px;
+    margin-bottom: 15px;
+    margin-left: 75px;
+  }
+  .photo {
+    width: 400px;
+    height: 200px;
+  }
+  .photo img {
+    width: 350px;
+    height: 180px;
+    object-fit: cover;
+  }
+  .wrapper h2 {
+  font-size: 17px;
+  margin-left: 25px;
+  }
+  .wrapper p {
+  font-size: 12px;
+  margin-left: 25px;
+  }
+  .aboutcard p {
+    margin-left: 0;
+  }
+  
+  .rating h4 {
+  margin-left: 200px;
+  font-size: 20px;
+  }
+  .rating img {
+    margin-left: 20px;
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .rating p {
+    font-size: 15px;
+  }
+  .wrapperfooter {
+    margin-top: 30px;
+  }
+  .footer {
+    background-color: rgb(252, 197, 216);
+    width: 600px;
+    height: 500px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .layanan1 img {
+    width: 120px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .layanan1 h4 {
+    font-size: 13px;
+  }
+  .layanan1 p {
+    font-size: 13px;
+  }
+  .layanan2 h4 {
+    font-size: 13px;
+  }
+  .layanan2 p {
+    font-size: 13px;
+  }
+  .layanan3 h4 {
+    font-size: 13px;
+  }
+  .layanan3 p {
+    font-size: 13px;
+  }
+  .layanan4 h4 {
+    font-size: 13px;
+  }
+  .layanan4 p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .fcontainer{
+    background-color: aliceblue;
+    width: 1400px;
+    height: 145em;
+  }
+  header {
+    background-color: rgb(65, 189, 65);
+  }
+  .boxporto{
+    width: 1200px;
+    
+  }
+  .untuk-text{
+    width: 800px;
+    height: 200px;
+    
+  }
+  .untuk-text h1{
+  font-size: 25px;
+  }
+  .untuk-text p{
+    font-size: 18px;
+  }
+  .description {
+    width: 100%;
+    background-color: rgb(65, 189, 65);
+    height: 70px;
+  }
+  .description h2{
+    font-size: 18px;
+    justify-content: start;
+    margin-left: 45px;
+  }
+  .description p{
+    font-size: 15px;
+    justify-content: start;
+    margin-left: 45px;
+
+  }
+  .navigasi {
+    background-color: rgb(146, 250, 117);
+  }
+ .nav {
+  width: 100%;
+  justify-content: start;
+ }
+  .nav li{
+    color: black;
+    font-size: 20px;
+  }
+  .produk{
+  display: flex;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  }
+  .wrapper {
+  margin-left: 7px;
+  background-color: white;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 10px;
+  width: 260px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.wrapper h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-left: 15px;
+  font-size: 13px;
+}
+.wrapper p {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  color: rgb(29, 29, 29);
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+.photo {
+  display: flex;
+  width: 260px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.photo img {
+  width: 230px;
+  height: 130px;
+  object-fit: cover;
+}
+.profilfoto {
+  display: flex;
+  width: 250px;
+  height: 80px;
+  align-items: center;
+}
+.profilfoto img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.aboutcard h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+.aboutcard p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(29, 29, 29);
+  margin-left: 0;
+}
+.rating {
+  display: flex;
+  width: 250px;
+  height: 20px;
+}
+.rating img {
+  margin-left: 12px;
+  width: 50px;
+  height: 20px;
+  object-fit: cover;
+}
+.rating p {
+  text-decoration: underline;
+}
+.rating h4 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(3, 167, 3);
+  margin-left: 50px;
+  font-size: 13px;
+}
+.banerbawah {
+  width: 100%;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.wrapperFooter {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  box-sizing: border-box;
+}
+.footer {
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  background-color: aliceblue;
+  flex-direction: row;
+  padding-top: 20px;
+  justify-content: center;
+}
+.layanan1 {
+  width: 500px;
+  height: 100px;
+}
+.layanan1 img {
+  width: 200px;
+  height: 40px;
+}
+.layanan2 {
+  width: 200px;
+  height: 100px;
+}
+.layanan3 {
+  width: 200px;
+  height: 100px;
+}
+.layanan4 {
+  width: 200px;
+  height: 100px;
+}
+
+ 
+}
